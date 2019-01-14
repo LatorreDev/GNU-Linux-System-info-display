@@ -5,7 +5,7 @@
 function salir()
 {
  echo "*************************"
- echo "* Para salir presione 9 *"
+ echo "* Para salir presione 10 *"
  echo "*************************"
 }
 
@@ -31,6 +31,7 @@ options=("Kernel info - Información del kernel"
 "Network interface info - Info de las tarjetas de red"
 "USB devices info - Info para dispositivos USB "
 "Ram info - Ver info de la memoria ram"
+"Battery info - Ver info de la batería"
 "Kernel Modules - Módulos del kernel"
 "Services - Servicios"
 "Quit - Salir")
@@ -61,6 +62,9 @@ do
         "Ram info - Ver info de la memoria ram")
            sudo dmidecode -t memory | less
            salir
+            ;;
+        "Battery info - Ver info de la batería")
+            sudo upower -i `upower -e | grep 'BAT'`
             ;;
         "Kernel Modules - Módulos del kernel")
             lsmod | less
