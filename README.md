@@ -41,3 +41,6 @@ Show the current kernel modules on the system
 Show the current running services (Only works with SystemD)
 # quit
 Exit the program
+
+## Author
+David Latorre - latorredev.com
