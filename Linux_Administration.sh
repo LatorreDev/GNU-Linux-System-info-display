@@ -9,7 +9,7 @@ function salir()
  echo "*************************"
 }
 
-echo "Script for Linux Administration and info  - Script para info y adminsitración de linux "
+echo "Script for show GNU/Linux system info - Script para visualizar info de sistemas GNU/linux "
 echo " "
 echo "Script made by David Latorre - Script hecho por David Latorre"
 echo "you can found source code at - Puede encontrar el código fuente en"
