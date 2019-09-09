@@ -2,6 +2,8 @@
 
 Script for show the GNU/Linux system info
 
+![Alt Text](https://github.com/LatorreDev/GNU-Linux-System-info-display/blob/master/assets/Screenshot.png)
+
 ## Pre requisistes
 
 dmidecode for show ram info
